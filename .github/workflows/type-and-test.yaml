@@ -1,4 +1,4 @@
-name: Roda Testes e Checa Tipos
+name: Roda Testes, Checa Tipos e Lint
 
 on:
   pull_request:
@@ -27,3 +27,6 @@ jobs:
 
       - name: Checa Tipo
         run: npm run type-check
+
+      - name: Roda o Lint
+        run: npm run lint
