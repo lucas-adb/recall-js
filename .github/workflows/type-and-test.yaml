@@ -1,0 +1,19 @@
+name: Roda Testes e Checa Tipos
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [24.x]
+    steps:
+      - name: Instala Dependências
+        run: npm ci
+      - name: Roda Testes
+        run: npm test
+      - name: Checa Tipo
+        run: npm run lint
