@@ -1,8 +1,8 @@
 # ADR 0001: node:test será a ferramenta de testes
 
-**Status:** Proposto
+**Status:** Aceito
 
-**Data:** 2026-08/08
+**Data:** 2026-08-08
 
 **Task relacionada:** Fase 0, todo 0.2
 
