@@ -21,7 +21,7 @@
   "license": "MIT",
   "author": "Lucas Alves",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "node index.ts",
     "test": "node --test",
