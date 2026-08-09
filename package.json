@@ -2,6 +2,9 @@
   "name": "recall",
   "version": "1.0.0",
   "description": "app de memorização com cards sobre js/ts",
+  "engines": {
+    "node": ">=24.0.0 <25.0.0"
+  },
   "keywords": [
     "javascript",
     "typescript",
