@@ -28,7 +28,7 @@ de propósito, para não entregar a solução antes da hora.
 
 **Foco:** sintaxe e tipos de TS, algoritmos, TDD. Sem I/O — tudo em memória.
 
-- [ ] **1.1** Modelar as entidades `Card` (pergunta, resposta, metadados) e `Review`
+- [x] **1.1** Modelar as entidades `Card` (pergunta, resposta, metadados) e `Review`
       (histórico de uma revisão) como tipos TS. Critério: nenhuma lógica ainda, só
       modelagem — mas já pensando em quais campos o algoritmo do SM-2 vai precisar.
 - [ ] **1.2** Implementar o cálculo de próximo intervalo (algoritmo tipo SM-2):
